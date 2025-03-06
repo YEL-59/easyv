@@ -1,0 +1,70 @@
+const Graph2 = () => {
+  return (
+    <>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="154"
+        height="52"
+        viewBox="0 0 154 52"
+        fill="none"
+      >
+        <rect
+          x="1.18466"
+          y="22.8684"
+          width="10.7046"
+          height="28.0995"
+          fill="#FF5241"
+          stroke="#FF5241"
+          stroke-width="1.33807"
+        />
+        <rect
+          x="29.2843"
+          y="34.9111"
+          width="10.7046"
+          height="16.0569"
+          fill="#FF5241"
+          stroke="#FF5241"
+          stroke-width="1.33807"
+        />
+        <rect
+          x="57.3839"
+          y="18.8543"
+          width="10.7046"
+          height="32.1137"
+          fill="#FF5241"
+          stroke="#FF5241"
+          stroke-width="1.33807"
+        />
+        <rect
+          x="85.483"
+          y="28.2207"
+          width="10.7046"
+          height="22.7472"
+          fill="#FF5241"
+          stroke="#FF5241"
+          stroke-width="1.33807"
+        />
+        <rect
+          x="113.583"
+          y="9.48776"
+          width="10.7046"
+          height="41.4802"
+          fill="#FF5241"
+          stroke="#FF5241"
+          stroke-width="1.33807"
+        />
+        <rect
+          x="141.682"
+          y="1.45932"
+          width="10.7046"
+          height="49.5086"
+          fill="#FF5241"
+          stroke="#FF5241"
+          stroke-width="1.33807"
+        />
+      </svg>
+    </>
+  );
+};
+
+export default Graph2;

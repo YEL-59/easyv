@@ -9,7 +9,7 @@ const Navbar = () => {
   const navitems = [
     { title: "Home", url: "/" },
     { title: "Features", url: "/#" },
-    { title: "Pricing", url: "#" },
+    { title: "Pricing", url: "/pricing" },
     { title: "Support", url: "#" },
   ];
 

@@ -1,6 +1,7 @@
 import Mainlayout from "@/layouts/main-layout";
 import About from "@/pages/main/about/about";
 import Home from "@/pages/main/home/home";
+import Pricing from "@/pages/main/pricing/pricing";
 import React from "react";
 import { createBrowserRouter } from "react-router";
 
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "pricing",
+        element: <Pricing />,
       },
     ],
   },

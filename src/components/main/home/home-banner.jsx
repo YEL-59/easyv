@@ -18,6 +18,7 @@ import Logo2 from "@/assets/logo2";
 import Logo3 from "@/assets/logo3";
 import Logo4 from "@/assets/logo4";
 import Logo5 from "@/assets/logo5";
+import { Link } from "react-router";
 
 const HomeBanner = () => {
   return (
@@ -78,7 +79,11 @@ const HomeBanner = () => {
               seamlessly relocate to their preferred country.
             </p>
             <div className="flex gap-5 mt-5 mb-5">
-              <Button className="px-7 py-2">Get Started</Button>
+              <Link to="/dashboard/chat">
+                <Button className="px-7 py-3 bg-red-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">
+                  Get Started
+                </Button>
+              </Link>
               <Button className="bg-white text-black border px-7 py-2">
                 Contact Us
               </Button>
